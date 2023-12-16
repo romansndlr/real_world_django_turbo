@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+*.sqlite3
+*.db
+*.log
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Virtual environment
+venv/
+.env
+
+# Temporary files
+*.swp
+*~
+
+# Environment variables
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Dependency directories
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg/
+
+# Distribution / packaging
+build/
+dist/
+
+# If you're using poetry for dependency management
+poetry.lock
+pyproject.toml
+
+# Django migration files
+*/migrations/
+*.sqlite3
+
+# Ignore the local settings file
+local_settings.py
+
+# Ignore sensitive information like secret keys
+*.secret
+
+# Ignore backup files
+*.bak
